@@ -50,6 +50,9 @@ With any given correctly formatted Input_File, you can then run the following co
 
 Change "Example_Input.txt" to the path of your input file if necessary. Change "Output_Result.txt" to any file name you would like, as long as it ends with .txt 
 
+#### Dependencies
+`numpy`
+
 
 
 
