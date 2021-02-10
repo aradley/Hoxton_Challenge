@@ -39,7 +39,7 @@ To run, be in the directory and execute the following on the command line:
 
 `python Generate_Example_Input.py --Rack_Dimensions 1000 --Initial_Num_Tubes 100 --Num_Operations 100000 --Operation_1_Probability 0.2 --Operation_2_Probability 0.8`
 
-You may change each of the variables by changing the numbers as desired. Operation_1_Probability and Operation_2_Probability dictate the likelyhood of the operations being generated being a remove tube operations (1) or move tube operation (2). These must sum to equal 1. 
+You may change each of the variables by changing the numbers as desired. Operation_1_Probability and Operation_2_Probability dictate the likelyhood of the operations being generated being a remove tube operation (1) or move tube operation (2). These must sum to equal 1. 
 
 The output file is a .txt file with 3 columns and Number_Operations + 2 rows. The first row designates the Rack_Dimensions and the second row the starting positions of the tubes. The third column designates whether the operation for a particular row is operation (1) or operation (2).
 
