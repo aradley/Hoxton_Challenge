@@ -107,7 +107,7 @@ def Operation_2(Operation,Positions,Relevent_Operations,Operations,Closest_Opera
 
 parser = argparse.ArgumentParser(description='usage:  Perform_Operations.py --Input_File path --Output_File string')
 parser.add_argument('--Input_File', help='Correctly formatted input file of operations',required=True,type=str)
-parser.add_argument('--Output_File', help='Optional name of outputed results. Default is "Output_Result.txt"',required=True,type=str)
+parser.add_argument('--Output_File', help='File name of outputed results. Default is "Output_Result.txt"',default='Output_File.txt',type=str)
 
 args = parser.parse_args()
 
